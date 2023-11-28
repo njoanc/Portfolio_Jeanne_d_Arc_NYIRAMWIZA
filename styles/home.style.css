@@ -1,0 +1,105 @@
+
+.heroSection {
+  position: relative;
+  text-align: center;
+  padding: 50px;
+  
+  background-size: cover;
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.5); Adjust the alpha value to control the overlay transparency */
+  z-index: -1; /* Place the overlay behind the text content */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.skill {
+  font-weight: bold;
+  color: #0572e2;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #572e2e;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #451919;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("/Images/background-image.jpeg");
+  background-size: cover;
+}
+
+/* Header Styles */
+header {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 20px;
+  text-align: center;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+/* Main Content Styles */
+.content {
+  flex: 1;
+}
+
+/* Hero Section Styles */
+.heroSection {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  margin: 0 10px;
+  vertical-align: middle;
+}

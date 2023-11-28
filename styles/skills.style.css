@@ -1,0 +1,20 @@
+
+  .table-container {
+    width: 80%;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #5da29d;
+    padding: 12px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #1d1010;
+  }
